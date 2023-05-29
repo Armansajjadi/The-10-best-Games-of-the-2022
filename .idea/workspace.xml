@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0bb24af9-1683-4f9d-b7c3-87e72fdecf55" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2Jg2DFlkVEz1vXISiMAPuUvFbnF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Java/Nahayi term1/site02/sait2&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="HtmlProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="HtmlProject" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0bb24af9-1683-4f9d-b7c3-87e72fdecf55" name="Changes" comment="" />
+      <created>1672485289367</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672485289367</updated>
+      <workItem from="1672485290635" duration="3535000" />
+      <workItem from="1672519933793" duration="10000" />
+      <workItem from="1672520025543" duration="149000" />
+      <workItem from="1672520184994" duration="98000" />
+      <workItem from="1672520300241" duration="289000" />
+      <workItem from="1672556353013" duration="16839000" />
+      <workItem from="1672598631300" duration="530000" />
+      <workItem from="1673334813167" duration="358000" />
+      <workItem from="1673336101629" duration="76000" />
+      <workItem from="1673350712421" duration="61000" />
+      <workItem from="1673762668726" duration="230000" />
+      <workItem from="1673777473798" duration="93000" />
+      <workItem from="1673785913480" duration="1581000" />
+      <workItem from="1673805916888" duration="1963000" />
+      <workItem from="1673852861584" duration="43000" />
+      <workItem from="1673975230351" duration="144000" />
+      <workItem from="1674296320415" duration="347000" />
+      <workItem from="1674464815223" duration="234000" />
+      <workItem from="1678966788518" duration="536000" />
+      <workItem from="1679232228988" duration="14000" />
+      <workItem from="1679238184985" duration="28000" />
+      <workItem from="1679950443669" duration="58000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
