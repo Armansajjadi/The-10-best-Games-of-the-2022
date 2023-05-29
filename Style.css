@@ -1,0 +1,360 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  overflow-x: hidden;
+}
+body{
+  cursor: url('152-1524497_sword-cursor.png'), auto;
+}
+.top{
+  background: linear-gradient(to right, #6699CC, #4D79A1, #1e334d);
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  color:white ;
+  margin: 0;
+  padding:20px;
+}
+.top h1{
+  text-shadow: 0px 0px 1px  white;
+  font-family:Algerian;
+}
+.main{
+  width: 100%;
+  height: 800px;
+  margin-top: 5px;
+  /* margin-top:5px ; */
+  background: linear-gradient(to left, #013165, #1157a2);
+}
+.imagesinleft {
+  /* float: left; */
+  height: 100%;
+  width: 81%;
+  /* display: inline; */
+  /* box-shadow: 3px 2px 2px 3px #013165; */
+  /* margin-right: 5px; */
+  position: relative;
+  top: -804px;
+  z-index: 0;
+}
+.main h2{
+  size: 26px;
+  font-family: Roboto Slab Medium;
+  color: white;
+  text-shadow: 2px 2px #013165;
+}
+
+.main p{
+  size: 16px;
+  font-family: Sitka Display Semibold;
+  color: white;
+  margin-top: 3px;
+}
+.main a{
+  size: 16px;
+  font-family: Sitka Display Semibold;
+  color: #bdd002;
+  text-shadow: 2px 2px #013165;
+  margin-top: 1px;
+  margin-bottom: 2px;
+}
+.imagesinright{
+  /* float: right; */
+  height: 100%;
+  width: 81%;
+  /* box-shadow: 3px 2px 2px 3px#013165; */
+  display: inline-block;
+  margin-left: 321px;
+  position: relative;
+  top: -804px;
+  z-index: 0;
+}
+/*/////////////Update//////////////*/
+.main{
+  /* opacity: 0.8; */
+  transition: all 0.6s ease-in-out;
+}
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12.5px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  text-decoration: none;
+  /* top: 80px; */
+ }
+ .cta:hover{
+  cursor: url('d6vxug1-bd24b4dd-1a0e-444d-b301-0ad884c85d98.png'), auto;
+ }
+ 
+ .cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: linear-gradient(225deg, #2f5cff, #6797ff, #7cb1ff, #92deff);
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+ }
+ 
+ .cta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  text-shadow: none;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #dae5ff;
+ }
+ 
+ .cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #dae5ff;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+ }
+ 
+ .cta:hover:before {
+  width: 100%;
+  background: linear-gradient(225deg, #2f5cff, #6797ff, #7cb1ff, #92deff);
+ }
+ 
+ .cta:hover svg {
+  transform: translateX(0);
+ }
+ 
+ .cta:active {
+  transform: scale(0.95);
+ }
+ .t {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  z-index: 100;
+  background: linear-gradient(to right, transparent ,rgb(0, 0, 0)80%);
+}
+.b {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  z-index: 100;
+  background: linear-gradient(to left, transparent ,rgb(0, 0, 0)80%);
+}
+.t p{
+  float: right;
+  width: 50%;
+  margin-right: 50px;
+  line-height: 50px;
+  margin-top: 30px;
+  text-shadow: 0px 0px 1px  white;
+}
+.t h2{
+  text-align: center;
+  float: right;
+  width: 50%;
+  margin-right: 50px;
+  margin-top: 70px;
+  text-shadow: 0px 0px 1px  white;
+}
+.t a{
+ float: right;
+  top: 500px;
+  left: 650px;
+  text-shadow: 0px 0px 1px  white;
+}
+.b p{
+  float: left;
+  width: 50%;
+  margin-left: 50px;
+  line-height: 50px;
+  margin-top: 30px;
+  text-shadow: 0px 0px 1px  whi
+}
+.b h2{
+  text-align: center;
+  float: left;
+  width: 50%;
+  margin-left: 50px;
+  margin-top: 70px;
+  text-shadow: 0px 0px 1px  white;
+}
+.b a{
+  float: left;
+  top: 500px;
+  right: 650px;
+  text-shadow: 0px 0px 1px  white;
+}
+.main p,.main a,.main h2{
+  opacity: 0.4;
+  transition: all 0.5s ease-in-out;
+}
+.main:hover p{
+ opacity: 1;
+}
+.main:hover a{
+  opacity: 1;
+}
+.main:hover h2{
+  opacity: 1;
+}
+.aks{
+  width: 100%;
+}
+video{
+  width: 100%;
+  height: 600px;
+  overflow-x: hidden;
+  transform: scaleX(1.585);
+}
+.dd{
+  background: linear-gradient(to right, #6699CC, #4D79A1, #1e334d);
+  width: 100%;
+  margin-top: 5px;
+  height: 799px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+.mainn {
+  display: flex;
+  /* position: relative;
+  top: 35%;
+  left: 45%; */
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.up {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.down {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+
+.card1 {
+  width: 150px;
+  height: 150px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 150px 5px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.instagram {
+  margin-top: 1.5em;
+  margin-left: 1.2em;
+  fill: #cc39a4;
+}
+
+.card2 {
+  width: 150px;
+  height: 150px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 150px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.twitter {
+  margin-top: 1.5em;
+  margin-left: -.9em;
+  fill: #03A9F4;
+}
+
+.card3 {
+  width: 150px;
+  height: 150px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 5px 150px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.github {
+  margin-top: -.6em;
+  margin-left: 1.2em;
+}
+
+.card4 {
+  width: 150px;
+  height: 150px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 5px 5px 150px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: .2s ease-in-out;
+}
+
+.discord {
+  margin-top: -.9em;
+  margin-left: -1.2em;
+  fill: #8c9eff;
+}
+
+.card1:hover {
+  cursor: url('d6vxug1-bd24b4dd-1a0e-444d-b301-0ad884c85d98.png'), auto;
+  scale: 1.1;
+  background-color: #cc39a4;
+}
+
+.card1:hover .instagram {
+  fill: white;
+}
+
+.card2:hover {
+  cursor: url('d6vxug1-bd24b4dd-1a0e-444d-b301-0ad884c85d98.png'), auto;
+  scale: 1.1;
+  background-color: #03A9F4;
+}
+
+.card2:hover .twitter {
+  fill: white;
+}
+
+.card3:hover {
+  cursor: url('d6vxug1-bd24b4dd-1a0e-444d-b301-0ad884c85d98.png'), auto;
+  scale: 1.1;
+  background-color: black;
+}
+
+.card3:hover .github {
+  fill: white;
+}
+
+.card4:hover {
+  cursor: url('d6vxug1-bd24b4dd-1a0e-444d-b301-0ad884c85d98.png'), auto;
+  scale: 1.1;
+  background-color: #8c9eff;
+}
+
+.card4:hover .discord {
+  fill: white;
+}
